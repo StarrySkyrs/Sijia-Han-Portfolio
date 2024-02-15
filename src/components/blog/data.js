@@ -7,7 +7,7 @@ const data = {
     '2': {
         heading: 'Oct 30, 2023',
         description: 'I am starting a new position as Prompt Engineer via TEKsystems @ Meta! ',
-        body: '',
+        body: 'YEAAAAH',
     },
     '3': {
         heading: 'Sep 30, 2023',

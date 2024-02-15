@@ -55,7 +55,7 @@ function About() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'black', marginLeft: "-8px"}}
+            contentStyle={{ background: 'white', color: 'black'}}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="Oct 2023 - Present"
             iconStyle={{ background: 'rgb(0, 128, 254)', color: '#fff' }}
@@ -69,7 +69,7 @@ function About() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'black', marginRight: "-8px"}}
+            contentStyle={{ background: 'white', color: 'black'}}
             date="May 2023 - Sep 2023"
             iconStyle={{ background: 'rgb(0, 128, 254)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
@@ -82,7 +82,7 @@ function About() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'black', marginLeft: "-8px"}}
+            contentStyle={{ background: 'white', color: 'black'}}
             date="May 2022 - Jul 2022"
             iconStyle={{ background: 'rgb(0, 128, 254)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
@@ -95,7 +95,7 @@ function About() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'black', marginRight: "-8px"}}
+            contentStyle={{ background: 'white', color: 'black'}}
             date="Sep 2021 - Nov 2022"
             iconStyle={{ background: 'rgb(249, 38, 114)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faUniversity} />}
@@ -108,7 +108,7 @@ function About() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'black', marginRight: "-8px"}}
+            contentStyle={{ background: 'white', color: 'black'}}
             date="Aug 2019 - Sep 2019"
             iconStyle={{ background: 'rgb(0, 128, 254)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
@@ -121,7 +121,7 @@ function About() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'black', marginRight: "-8px"}}
+            contentStyle={{ background: 'white', color: 'black'}}
             date="Jan 2017 - Aug 2021"
             iconStyle={{ background: 'rgb(249, 38, 114)', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faUniversity} />}
