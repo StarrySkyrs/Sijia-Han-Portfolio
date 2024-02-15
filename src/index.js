@@ -18,10 +18,10 @@ ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
-      <Route path="/react-portfolio-template" element={<Home />} />
-      <Route path="/react-portfolio-template/about" element={<About />} />
-      <Route path="/react-portfolio-template/contact" element={<Contact />} />
-      <Route path="/react-portfolio-template/blog" element={<Blog />}>
+      <Route path="/Sijia-Han" element={<Home />} />
+      <Route path="/Sijia-Han/About" element={<About />} />
+      <Route path="/Sijia-Han/Contact" element={<Contact />} />
+      <Route path="/Sijia-Han/Blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
       </Route>

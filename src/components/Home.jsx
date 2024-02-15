@@ -10,7 +10,7 @@ function Home() {
   return (
     <React.StrictMode>
       <Hero />
-      <Skill />
+      {/* <Skill /> */}
       <Project />
       <Contact />
     </React.StrictMode>
