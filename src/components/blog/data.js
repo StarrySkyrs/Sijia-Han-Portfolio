@@ -1,18 +1,23 @@
 const data = {
     '1': {
-        heading: 'Feb 5, 2022',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris orci, mollis id vulputate ornare, facilisis non felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam ut ipsum viverra, tincidunt nulla eu, iaculis purus. Nunc vulputate sodales enim, sed interdum magna lobortis sed. Pellentesque id venenatis risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum rutrum convallis cursus. Aenean nec justo mattis, euismod eros quis, molestie est. Pellentesque gravida dolor nec tortor blandit, sit amet molestie lacus faucibus.',
+        heading: 'Feb 14, 2024',
+        description: 'My personal webiste is WIP.',
+        body: 'I am starting to build my portfolio website to show my experience, some of my interesting projects and anything I would like to share with someone who finds this place.',
     },
     '2': {
-        heading: 'May 23, 2022',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris orci, mollis id vulputate ornare, facilisis non felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam ut ipsum viverra, tincidunt nulla eu, iaculis purus. Nunc vulputate sodales enim, sed interdum magna lobortis sed. Pellentesque id venenatis risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum rutrum convallis cursus. Aenean nec justo mattis, euismod eros quis, molestie est. Pellentesque gravida dolor nec tortor blandit, sit amet molestie lacus faucibus.',
+        heading: 'Oct 30, 2023',
+        description: 'I am starting a new position as Prompt Engineer via TEKsystems @ Meta! ',
+        body: '',
     },
     '3': {
         heading: 'Sep 30, 2023',
-        description: 'My resume up to date of Sep 30, 2023.',
-        body: <p><a href="" target="_blank" rel="noreferrer">Sijia Han's Resume</a></p>
+        description: 'My resume is up to date as of Sep 30, 2023.',
+        body: <p>
+            The resume has been updated as of September 30th, 2023. Please click on the link below to review.
+            <br></br>
+            <br></br>
+            <a href="https://drive.google.com/file/d/1WEhupdGH5Rg-svirdbD9-s1mR57UG_85/view" target="_blank" rel="noreferrer">Sijia Han's Resume</a>
+            </p>
     },
 }
 export default data

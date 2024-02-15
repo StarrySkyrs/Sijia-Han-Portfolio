@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/style/Hero.scss'
 import { CodeBlock, monokai } from 'react-code-blocks';
-import MeCat from '../../mecat.jpg'
+import MeCat from '../../images/mecat.jpg'
 
 function Hero() {
   return  (

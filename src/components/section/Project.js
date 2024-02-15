@@ -1,70 +1,68 @@
 import React from 'react';
 import '../assets/style/Project.scss';
+import chatbot from '../../images/chatbot.png'
+import covidcorpus from '../../images/CovidCorpus.png'
+import sentcovid19 from '../../images/SentAnalysisCovid19.png'
+import covidsent from '../../images/covidsent.png'
+import facebook from '../../images/facebook.png'
+import spval from '../../images/spval.png'
+import dualmap from '../../images/dualmap.png'
+import ecosage from '../../images/ecosage.png'
+
 
 function Project() {
   return  (
     <div className="projects-container" id="project">
       <h1>Projects</h1>
       <div className="projects-grid">
-        <div className="project">
-          <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/mock10.png" className="zoom" alt="thumbnail" width="100%"/></a>
-          <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-          <p>Utilizing my skills in game design and development, I designed, developed, and launched a 3D multiplayer racing game, which is now available on Itch.io for gamers worldwide to enjoy.</p>
-          <p>Used: C#, Unity</p>
+      <div className="project">
+          <a href="https://github.com/StarrySkyrs/EcoSage" target="_blank" rel="noreferrer"><img src={ ecosage } className="zoom" alt="thumbnail" style={{ width: '100%', height: 'auto' }}/></a>
+          <a href="https://github.com/StarrySkyrs/EcoSage" target="_blank" rel="noreferrer"><h2>EcoSage</h2></a>
+          <p>Innovative recycling app that simplifies the recycling process by providing clear instructions on how to recycle various objects.</p>
+          <p>Used: Python, Computer Vision, Web Scraping, Image Segmentation, Steamlit, LLMs,  Image-to-Text Generation</p>
+          <p>The project won first place in the 2023 AltaML Sustainability Hackathon. I am sharing this to express my gratitude to my teammates and to satisfy my desire to share. :)</p>
         </div>
         <div className="project">
-          <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/mock9.png" className="zoom" alt="thumbnail" width="100%"/></a>
-          <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-          <p>Developed and released a 2D shooting game. This project is hosted on the Itch.io public marketplace.</p>
-          <p>Used: C#, Unity</p>
+          <a href="https://public.tableau.com/app/profile/sijia.han/viz/DualLayerMaps_16975214768080/ADualLayerMap" target="_blank" rel="noreferrer"><img src={ dualmap } className="zoom" alt="thumbnail" style={{ width: '100%', height: 'auto' }}/></a>
+          <a href="https://public.tableau.com/app/profile/sijia.han/viz/DualLayerMaps_16975214768080/ADualLayerMap" target="_blank" rel="noreferrer"><h2>Dual Layer Maps</h2></a>
+          <p>A tableau chart showing the dual layer map with info on sales and profit in each state on the map.</p>
+          <p>Used: Tableau, Microsoft Excel</p>
         </div>
         <div className="project">
-          <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/mock1.png" className="zoom" alt="thumbnail" width="100%"/></a>
-          <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-          <p>Datum is an online educational platform with 300+ users that provides high-quality, data science focused learning resources in the Japanese language. Created an entire platform from scratch.</p>
-          <p>Used: Ruby on Rails, HTML5, SCSS, PostgreSQL</p>
+          <a href="https://github.com/StarrySkyrs/NegativeAwareNER" target="_blank" rel="noreferrer"><img src={ chatbot } className="zoom" alt="thumbnail" style={{ width: '100%', height: 'auto' }}/></a>
+          <a href="https://github.com/StarrySkyrs/NegativeAwareNER" target="_blank" rel="noreferrer"><h2>Negative Aware NER ChatBot System</h2></a>
+          <p>Developed a Negation-Aware Named Entity Recognition (NER) system for chatbots in the E-Commerce domain in Python and deployed it with a user-friendly interface using FastAPI.</p>
+          <p>Used: Python, Machine Learning, NLP, Data Analysis</p>
         </div>
         <div className="project">
-          <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/mock2.png" className="zoom" alt="thumbnail" width="100%"/></a>
-          <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-          <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. Participated in this project as a freelance software developer.</p>
-          <p>Used: Ruby on Rails, JavaScript</p>
+          <a href="https://github.com/StarrySkyrs/COVID-Corpus" target="_blank" rel="noreferrer"><img src={ covidcorpus } className="zoom" alt="thumbnail" style={{ width: '100%', height: 'auto' }}/></a>
+          <a href="https://github.com/StarrySkyrs/COVID-Corpus" target="_blank" rel="noreferrer"><h2>COVID Corpus</h2></a>
+          <p>A Covid-related corpus with sentiment and topic hashtags.</p>
+          <p>Used: Python, Docker, React, FastAPI</p>
         </div>
         <div className="project">
-          <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/mock3.png" className="zoom" alt="thumbnail" width="100%"/></a>
-          <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-          <p>Built online charts for COVID/vaccination tracking at Brigham Young University - Hawaii. The dashboard served the president of university in his decision making processes.</p>
-          <p>Used: JavaScript, Google Sheets API v4</p>
+          <a href="https://github.com/StarrySkyrs/Sentiment-Analysis-of-Twitter-Comments-Related-to-COVID19/tree/main" target="_blank" rel="noreferrer"><img src={ sentcovid19 } className="zoom" alt="thumbnail" style={{ width: '100%', height: 'auto' }}/></a>
+          <a href="https://github.com/StarrySkyrs/Sentiment-Analysis-of-Twitter-Comments-Related-to-COVID19/tree/main" target="_blank" rel="noreferrer"><h2>Sentiment Analysis on Twitter comments related to Covid-19</h2></a>
+          <p>With the trend of the pandemic, analyzing public sentiment data in the comments can also help understand the public's emotional changes during the epidemic, helping understand the public's perception of the epidemic.</p>
+          <p>Used: Python, Machine Learn, Sentiment Analysis, SVMs, Decision Trees</p>
         </div>
         <div className="project">
-          <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/mock7.png" className="zoom" alt="thumbnail" width="100%"/></a>
-          <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-          <p>Analyzed the real estate market in Japan and predicted the property price by implementing statistical methods such as OLS and multi-regression analysis.</p>
-          <p>Used: Python, Pandas, NumPy, Matplotlib, Scikit-Learn, Seaborn</p>
+          <a href="https://github.com/StarrySkyrs/COVID-sentiment-analysis-in-Tweets" target="_blank" rel="noreferrer"><img src={ covidsent } className="zoom" alt="thumbnail" style={{ width: '100%', height: 'auto' }}/></a>
+          <a href="https://github.com/StarrySkyrs/COVID-sentiment-analysis-in-Tweets" target="_blank" rel="noreferrer"><h2>COVID Sentiment Analysis in Tweets</h2></a>
+          <p>Sentiment analysis towards COVID-related tweets on specific topics, namely vaccines and masks.</p>
+          <p>Used: Python, BERTweet, CNN-BiLSTM</p>
         </div>
         <div className="project">
-          <a href="https://github.com/yujisatojr/py-scraper" target="_blank" rel="noreferrer"><img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/mock8.png" className="zoom" alt="thumbnail" width="100%"/></a>
-          <a href="https://github.com/yujisatojr/py-scraper" target="_blank" rel="noreferrer"><h2>PyScraper</h2></a>
-          <p>Developed web scraping programs to extract over 800000+ data for analysis purposes. The program further automates the data cleaning and normalization processes.</p>
-          <p>Used: Python, Pandas, Selenium, Requests, Beautiful Soup</p>
+          <a href="https://github.com/StarrySkyrs/Spotify_Popularity_Prediction" target="_blank" rel="noreferrer"><img src={ spval } className="zoom" alt="thumbnail" style={{ width: '100%', height: 'auto' }}/></a>
+          <a href="https://github.com/StarrySkyrs/Spotify_Popularity_Prediction" target="_blank" rel="noreferrer"><h2>Spotify Popularity Prediction</h2></a>
+          <p>Built an ensemble model on the Spotify dataset to determine the popularity of songs and study feature importance using SHAP.</p>
+          <p>Used: Python, Feature Importance, Ensemble Machine Learning, SHAP</p>
         </div>
         <div className="project">
-          <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/mock4.png" className="zoom" alt="thumbnail" width="100%"/></a>
-          <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-          <p>Designed and developed a custom component for CMS-based platform (i.e. “Brightspot”) at Brigham Young University - Hawaii. University students can find their majors of interests through this module.</p>
-          <p>Used: Java, Handlebars, LESS, JSON</p>
-        </div>
-        <div className="project">
-          <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/mock5.png" className="zoom" alt="thumbnail" width="100%"/></a>
-          <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-          <p>Created an interactive CSV table generator. Improved the university’s program sorting time by replacing jQuery with vanilla JavaScript.</p>
-          <p>Used: Java, Handlebars, LESS, JSON</p>
-        </div>
-        <div className="project">
-          <a href="https://play.google.com/store/apps/details?id=com.catswarzone" target="_blank" rel="noreferrer"><img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/mock6.png" className="zoom" alt="thumbnail" width="100%"/></a>
-          <a href="https://play.google.com/store/apps/details?id=com.catswarzone" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-          <p>Developed and released an Android mobile application with Java that runs the 2D shooting game.</p>
-          <p>Used: Java, Android Studio</p>
+          <a href="https://github.com/StarrySkyrs/Facebook_Linear_Regression_In_R" target="_blank" rel="noreferrer"><img src={ facebook } className="zoom" alt="thumbnail" style={{ width: '100%', height: 'auto' }}/></a>
+          <a href="https://github.com/StarrySkyrs/Facebook_Linear_Regression_In_R" target="_blank" rel="noreferrer"><h2>Facebook Linear Regression</h2></a>
+          <p>Built single and multiple (Additive and Interaction) Linear Regression Models on the Facebook dataset to derive inferences or conclusions with the hypothesis testing.</p>
+          <p>Used: R, Bootstrap, Linear Regression, Plotly, Hypothesis Testing, GGplot</p>
         </div>
       </div>
     </div>

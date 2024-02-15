@@ -12,8 +12,8 @@ function Contact() {
         <p>Feel free to reach out to me on social media.</p>
         <div className="info">
           <ul>
-            <li><a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a></li>
-            <li><a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="2x"/></a></li>
+            <li><a href="https://www.linkedin.com/in/sijia-han-6618761b6/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a></li>
+            <li><a href="https://github.com/StarrySkyrs" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="2x"/></a></li>
           </ul>
         </div>
       </div>

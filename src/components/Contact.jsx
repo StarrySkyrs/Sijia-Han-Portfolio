@@ -1,22 +1,22 @@
-import React from "react";
-import { Button } from '@material-ui/core';
+import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin,  faWeixin} from '@fortawesome/free-brands-svg-icons';
 
 function Contact() {
-  return (
-    <div className="items_wrapper">
-      <h1>Contact</h1>
-      <form>
-        <label for="fname">Full Name</label>
-        <input type="text" id="fname" name="fullname" placeholder="Your name"/>
-
-        <label for="fname">Email/Phone Number</label>
-        <input type="text" id="fname" name="contact" placeholder="Your contact information"/>
-
-        <label for="subject">Inquiry</label>
-        <textarea id="subject" name="subject" placeholder="Write something"></textarea>
-
-        <Button variant="contained" size="large">Submit</Button>
-      </form>
+  return  (
+    <div className="getintouch" id="contact">
+      <div className="section">
+        <h1>Let's create awesome stuff together!</h1>
+        <div className="line"></div>
+        <p>Feel free to reach out to me on social media.</p>
+        <div className="info">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/sijia-han-6618761b6/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="4x"/></a></li>
+            <li><a href="https://github.com/StarrySkyrs" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="4x"/></a></li>
+            <li><a href="https://github.com/StarrySkyrs" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faWeixin} size="4x"/></a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
