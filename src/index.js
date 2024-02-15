@@ -18,10 +18,10 @@ ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
-      <Route path="/Sijia-Han" element={<Home />} />
-      <Route path="/Sijia-Han/About" element={<About />} />
-      <Route path="/Sijia-Han/Contact" element={<Contact />} />
-      <Route path="/Sijia-Han/Blog" element={<Blog />}>
+      <Route path="/Sijia-Han-Portfolio" element={<Home />} />
+      <Route path="/Sijia-Han-Portfolio/About" element={<About />} />
+      <Route path="/Sijia-Han-Portfolio/Contact" element={<Contact />} />
+      <Route path="/Sijia-Han-Portfolio/Blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
       </Route>

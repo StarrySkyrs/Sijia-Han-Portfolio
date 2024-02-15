@@ -18,23 +18,23 @@ function Navigation() {
       <div className={isNavExpanded ? "nav-bar expanded" : "nav-bar"}>
         <ul>
           <li className="nav-item">
-          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/Sijia-Han">
+          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/Sijia-Han-Portfolio">
             Home
             <span className="sr-only">(current)</span>
           </NavLink>
           </li><div className="divider-bar"/>
           <li className="nav-item">
-          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/Sijia-Han/About">
+          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/Sijia-Han-Portfolio/About">
             About
           </NavLink>
           </li><div className="divider-bar"/>
           <li className="nav-item">
-          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/Sijia-Han/Blog">
+          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/Sijia-Han-Portfolio/Blog">
             Blog
           </NavLink>
           </li><div className="divider-bar"/>
           <li className="nav-item">
-          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/Sijia-Han/Contact">
+          <NavLink className="nav-link" onClick={() => {setIsNavExpanded(!isNavExpanded)}} to="/Sijia-Han-Portfolio/Contact">
             Contact
           </NavLink>
           </li>

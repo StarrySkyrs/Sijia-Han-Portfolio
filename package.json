@@ -2,7 +2,7 @@
   "name": "sijia-han",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://StarrySkyrs.github.io/Sijia-Han",
+  "homepage": "https://starryskyrs.github.io/Sijia-Han-Portfolio/",
   "dependencies": {
     "-": "^0.0.1",
     "@babel/runtime": "^7.18.3",
